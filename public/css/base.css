@@ -43,7 +43,12 @@ section > div > img {
     height: 20px;
     transform: rotate(-45deg);
     margin: auto;
+}
 
+.card_reviewer-text {
+	color: white;
+	font-size: 140%;
+	text-align: center;
 }
 
 .card_reviewer-colors-top {
