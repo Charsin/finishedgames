@@ -1,0 +1,117 @@
+
+.grid-container {
+  display: grid;
+  grid-column-gap: 20px;
+  grid-row-gap: 25px;
+  grid-template-columns: 1fr 1fr 1fr;
+  max-width: 600px;
+  padding: 20px;
+  justify-items: stretch;
+  align-items: stretch;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+section > div {
+  display: flex;
+  flex-direction: column;
+  width: 213px;
+  background-color: white;
+  transition: transform .2s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+section > div:hover {
+	transform: scale3d(1.1, 1.1, 1);
+
+}
+
+section > div > img {
+  background: lightblue;
+  width: 213px;
+  height: 100px;
+}
+
+.card_reviewer {
+	padding: 0;
+	background: brown;
+}
+
+.card_reviewer-diamond {
+	background: blue;
+	width: 20px;
+    height: 20px;
+    transform: rotate(-45deg);
+    margin: auto;
+
+}
+
+.card_reviewer-colors-top {
+	border-image:   linear-gradient(to right, black 25%, yellow 35%, yellow 45%, red 55%, red 65%, black 75%) 5;
+	border-bottom: 3px solid blue;
+}
+
+.card_reviewer-colors-bottom {
+	border-image:   linear-gradient(to right, black 25%, yellow 35%, yellow 45%, red 55%, red 65%, black 75%) 5;
+	border-top: 3px solid blue;
+}
+
+.card_stats {
+	height: 50px;
+	background: #3a3624;
+	padding: 10px;
+	color: white;
+	display: flex;
+}
+
+.card_stats > div {
+	margin: auto;
+	display: inline-block;
+}
+
+.card_stats > img {
+	position: relative;
+	width: 100%;
+}
+
+.card_stats-subscript {
+	font-size: 50%;
+	display: inline-block;
+}
+
+.card_stats-number {
+	font-size: 140%;
+	color: white;
+}
+
+.card_stats-text {
+	font-size: 80%;
+	color: lightgrey;
+}
+
+.card_reverse {
+	opacity: 1;
+	transform: scaleX(-1);
+	filter: blur(20px);
+}
+
+
+
+#game_article_01 {
+	display: none;
+}
+
+article {
+	display: inline-block;
+}
+
+article > div {
+	display: inline-block;
+}
+
+article > div > img {
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	float: left;
+}
