@@ -15,7 +15,7 @@
 section > div {
   display: flex;
   flex-direction: column;
-  width: 213px;
+  width: 230px;
   background-color: white;
   transition: transform .2s;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -28,8 +28,7 @@ section > div:hover {
 
 section > div > img {
   background: lightblue;
-  width: 213px;
-  height: 100px;
+  height: 107.5px;
 }
 
 .card_reviewer {
